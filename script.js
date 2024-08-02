@@ -4,6 +4,7 @@ function Calcular() {
     let array = []
     let quociente = num
     if (num <= 0) {
+        res.innerHTML = "Escreva um número positivo!"
         return
     }
     while (quociente !== 0) {
