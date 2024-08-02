@@ -3,7 +3,7 @@ function Calcular() {
     let res = document.getElementById("res")
     let array = []
     let quociente = num
-    if (num <= 0) {
+    if (num < 0) {
         res.innerHTML = "Escreva um número positivo!"
         return
     }
